@@ -11,7 +11,7 @@ red = (255,0,0)
 purple = (255,0,255)
 yellow   = ( 255, 255,   0)
 
-Trollicon=pygame.image.load('images/Trollman.png')
+Trollicon=pygame.image.load('images/nath.png')
 pygame.display.set_icon(Trollicon)
 
 #Add music
@@ -398,7 +398,7 @@ def startGame():
 
 
   # Create the player paddle object
-  Pacman = Player( w, p_h, "images/Trollman.png" )
+  Pacman = Player( w, p_h, "images/nath.png" )
   all_sprites_list.add(Pacman)
   pacman_collide.add(Pacman)
    
