@@ -1,6 +1,3 @@
-#Pacman in Python with PyGame
-#https://github.com/hbokmann/Pacman
-  
 import pygame
   
 black = (0,0,0)
